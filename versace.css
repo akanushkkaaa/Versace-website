@@ -1,0 +1,214 @@
+
+.parallax {
+    /* The image used */
+    background-image: url("runway.gif");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .parallax1 {
+        /* The image used */
+        background-image: url("p2.jpg");
+    
+        /* Set a specific height */
+        min-height: 500px;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax2 {
+        /* The image used */
+        background-image: url("p6.jpg");
+    
+        /* Set a specific height */
+        min-height: 500px;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax3 {
+        /* The image used */
+        background-image: url("p12.jpg");
+    
+        /* Set a specific height */
+        min-height: 500px;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .parallax-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+
+    }
+    .about {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+    
+        }
+    
+        .scroll-container2 {
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+
+    /* scrolling function */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .scroll-container {
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .expanding-text {
+        font-size: 24px;
+        transition: font-size 0.2s ease-in-out;
+    }
+    
+    /*#expandable {
+        width: 100vw; 
+        height: 100vh;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+        color: #fff;
+        position: relative;
+        font-size: 5vw;
+        transform-origin: center top;*/
+
+    .parallax-section {
+    position:relative;
+    height: 10vh;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    transform: translateZ(-1px) scale(2);
+    color: #ffffff;
+ font-size: 50px;
+ text-align: center;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+
+    }
+
+/* .style2{
+   
+    width: -70%;
+    height: 150px;
+    background-color: rgb(134, 34, 34);
+   
+    font-size: 36px;
+    color:#fff;
+    text-align:center bottom;
+
+} */
+
+.highlights-container {
+    display:flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.style {
+    width:auto;
+        padding-top: 60px;
+        padding-left: 200px;
+        padding-right: 200px;
+        height: 120px;
+        background-color: #ffffff;
+        font-family: AktivGrotesk Regular,arial,sans-serif;
+        
+        font-size: 40px;
+        color:#000000;
+        text-align:center bottom;
+}
+
+/* .circle {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 10px;
+} */
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image {
+    width: 120px;
+    height: 120px; /* Adjust image height */
+    background-size: contain;
+    border-radius: 50%;
+    margin-left: 40px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Apply the hover effect on the product container */
+.product-container:hover .product-image {
+    background-color: #681b8e;
+    cursor: pointer;
+}
+
+/* Make the product name bold on hover */
+.product-container:hover .product-name {
+    font-weight: bold;
+}
+
+.product-name {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px; /* Adjust margin-top as needed */
+    font-family: AktivGrotesk Regular,arial,sans-serif;
+    font-size: 13px;
+    
+}
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+
